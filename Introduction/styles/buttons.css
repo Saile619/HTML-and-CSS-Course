@@ -1,0 +1,65 @@
+.subButton {
+	background-color: rgb(204, 0, 0);
+	color: white;
+	border: none;
+	height: 36px;
+	width: 105px;
+	border-radius: 2px;
+	cursor: pointer;
+	margin-right: 8px;
+	transition: opacity 0.15s;
+}
+
+/* CSS when we hover over a button */
+.subButton:hover {
+	opacity: 0.8;
+}
+
+/* CSS when we click a button */
+.subButton:active {
+	opacity: 0.5;
+}
+
+.joinButton {
+	background-color: white;
+	border-color: rgb(6, 95, 212);
+	border-style: solid;
+	border-width: 1px;
+	color: rgb(6, 95, 212);
+	height: 36px;
+	width: 62px;
+	border-radius: 2px;
+	cursor: pointer;
+	margin-right: 8px;
+	transition: background-color 0.15s, color 0.15s;
+}
+
+.joinButton:hover {
+	color: white;
+	background-color: rgb(6, 95, 212);
+}
+
+.joinButton:active {
+	opacity: 0.7;
+}
+
+.tweetButton {
+	background-color: rgb(29, 155, 240);
+	color: white;
+	border: none;
+	height: 36px;
+	width: 74px;
+	border-radius: 18px;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: pointer;
+	transition: box-shadow 0.15s;
+}
+
+.tweetButton:hover {
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.tweetButton:active {
+	opacity: 0.7;
+}
